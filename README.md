@@ -12,14 +12,14 @@ Files needed to boot a system from USB and autoconfig via kickstart
 3. Use Rufus to build bootable USB (using a USB thumb drive of at least 2GB). Use Isohybrid mode.
 
 4. Open the drive and transfer filed into the isolinux directory
- * isolinux.cfg
- * ks.cfg
+ * `isolinux.cfg`
+ * `ks.cfg`
  
  (customize these files as you wish but be aware that windows can mess with CR/LF)
 
 ## How to customize this
 
-Boot menu is found within isolinux.cfg. Use this to cutomize boot menu or special kernel options
+Boot menu is found within `isolinux.cfg` . Use this to cutomize boot menu or special kernel options
 
-Actual install of Centos7 is found within ks.cfg (kickstart file). Customize what gets installed.
+Actual install of Centos7 is found within `ks.cf`g (kickstart file). Customize what gets installed.
 
