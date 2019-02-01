@@ -22,7 +22,8 @@ Files needed to boot a system from USB and autoconfig via kickstart
 
 ## What does this build?
 
-This builds a very basic Centos7 workstation with a browser and a few useful tools
+This builds a very basic Centos7 workstation with a browser and a few useful tools. On first bootup
+this workstation will auto-login as a user and will not activate a screensaver or screen lock.
 
 ## How to customize this
 
