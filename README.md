@@ -17,6 +17,13 @@ Files needed to boot a system from USB and autoconfig via kickstart
  
  (customize these files as you wish but be aware that windows can mess with CR/LF)
 
+ 5. Boot the target system from USB and follow the prompts. System will need network access to pull 
+    additional packages that are not included in the Minimal ISO.
+
+## What does this build?
+
+This builds a very basic Centos7 workstation with a browser and a few useful tools
+
 ## How to customize this
 
 Boot menu is found within `isolinux.cfg` . Use this to cutomize boot menu or special kernel options
