@@ -14,6 +14,7 @@ Files needed to boot a system from USB and autoconfig via kickstart
 4. Open the drive and transfer filed into the isolinux directory
  * isolinux.cfg
  * ks.cfg
+ 
  (customize these files as you wish but be aware that windows can mess with CR/LF)
 
 ## How to customize this
