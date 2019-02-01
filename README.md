@@ -11,7 +11,7 @@ Files needed to boot a system from USB and autoconfig via kickstart
 
 3. Use Rufus to build bootable USB (using a USB thumb drive of at least 2GB). Use Isohybrid mode.
 
-4. Open the drive and transfer filed into the isolinux directory
+4. Open the drive and transfer files into the isolinux directory
  * `isolinux.cfg`
  * `ks.cfg`
  
