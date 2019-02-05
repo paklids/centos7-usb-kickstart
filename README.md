@@ -3,9 +3,11 @@ Files needed to boot a system from USB and autoconfig via kickstart
 
 ## What do I need to know?
 
-It is essential to determine how the system you want to build boots from USB. If your system leverages the newer
-standard UEFI, then you will want to edit grub.cfg. If your system uses the legacy boot method, you will want to 
-edit isolinux.cfg .
+It is essential to determine how the system you want to build boots from USB. 
+
+* UEFI boot - edit grub.cfg & place in /EFI/BOOT/grub.cfg 
+
+* Legacy boot (pre-UEFI) - edit & place /isolinux/isolinux.cfg 
 
 ## How to use this:
 
