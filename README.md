@@ -1,11 +1,17 @@
 # centos7-usb-kickstart
 Files needed to boot a system from USB and autoconfig via kickstart
 
+## What do I need to know?
+
+It is essential to determine how the system you want to build boots from USB. If your system leverages the newer
+standard UEFI, then you will want to edit grub.cfg. If your system uses the legacy boot method, you will want to 
+edit isolinux.cfg .
+
 ## How to use this:
 
 1. Download and install Rufus on a Windows system (instructions using dd are in-process)
  * https://downloads.tomsguide.com/Rufus,0301-53760.html
-
+ 
 2. Download Centos 7 minimal iso 
  * http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso
 
